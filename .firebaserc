@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ghardekhodotcom"
+  },
+  "targets": {
+    "ghardekhodotcom": {
+      "hosting": {
+        "Angular-project": [
+          "ghardekhodotcom"
+        ]
+      }
+    }
+  }
+}

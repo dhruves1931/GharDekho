@@ -17,7 +17,13 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/altertyfy.d.ts"
+    ],
     "module": "ES2022",
+    "suppressImplicitAnyIndexErrors": true,
+    "strictPropertyInitialization": false,
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
